@@ -1,0 +1,39 @@
+
+.ourservice{
+    flex-direction: column;
+}
+.contact input {
+    max-width: 90%;
+    
+}
+#message {
+    max-width: 90%;
+}
+.ourclients{
+    flex-wrap: wrap;
+}
+.navbarcontainer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1000px){
+    header{
+        height: 538px !important;
+    }
+    }
+
+@media only screen and (max-width: 600px){
+header{
+
+    height: 680px !important;
+}
+.section h1{
+    margin: 36px !important;
+}
+.box img {
+    width: 150px !important;
+    height: 150px !important;
+}
+}
