@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My onlineMeal Website </title>
+    <link rel="stylesheet" media="screen and (max-width: 1000px)" href="phone.css">
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .navbarcontainer {
+        display: flex;
+        background-color: black;
+        position: sticky;
+
+    }
+
+    .logoimage img {
+        width: 50px;
+        margin-left: 43px;
+        margin-top: 8px;
+        margin-bottom: 4px;
+    }
+
+    .navbar {
+        display: flex;
+        
+    }
+
+    li {
+        list-style: none;
+        margin-top: 22px;
+        margin-left: 17px;
+    }
+
+    li a {
+        text-decoration: none;
+        padding: 10px 8px;
+        border-radius: 12px;
+        color: white;
+        font-weight: bold;
+    
+    }
+
+    li a:hover {
+        background-color: white;
+        color: black;
+    }
+
+    .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 69px;
+        color: white;
+    }
+
+    .section h1 {
+        margin-top: 75px;
+        margin-bottom: 6px;
+        font-size: 2.9rem;
+        font-weight: bold;
+    }
+
+    .section p {
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+
+    .section button {
+        background-color: brown;
+        padding: 8px 12px;
+        border-radius: 12px;
+        font-size: 1.2rem;
+        color: white;
+        margin-top: 12px;
+    }
+
+    .section button:hover {
+        cursor: pointer;
+    }
+
+    header {
+        /* background-color: aqua; */
+        background: url('https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') center center/cover;
+        /* border: 4px solid red; */
+        height: 500px;
+
+        /* opacity: 0.8; */
+    }
+    .container2{
+        background-color: rgb(204, 211, 218);
+        top: 0px;
+    }
+
+    .ourservice {
+        display: flex;
+    }
+
+    .box {
+        border: 2px solid red;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 23px;
+        margin: 45px;
+        border-radius: 40px;
+        text-align: center;
+        background-color: rgb(231, 224, 224);
+    }
+
+    .box img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .container2 h1 {
+        text-align: center;
+        font-size: 3.3rem;
+        font-weight: bold;
+        padding-top: 23px;
+        /* margin-top: 12px; */
+    }
+
+    .ourclients {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ourclients img {
+        width: 100px;
+        padding: 23px;
+        margin: 2px;
+    }
+
+    .container3 h1 {
+        text-align: center;
+        font-size: 3.3rem;
+        font-weight: bold;
+    }
+
+    #apple img {
+        width: 50px;
+    }
+
+    #facebook img {
+        width: 50px;
+    }
+
+    .container3 {
+        background: url('https://images.pexels.com/photos/1508668/pexels-photo-1508668.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') no-repeat center center/cover;
+        height: 250px;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact p {
+        font-weight: bold;
+    }
+
+    .contact input {
+        width: 555px;
+        border: 2px solid black;
+        border-radius: 4px;
+        padding: 2px;
+    }
+
+    #message {
+        width: 555px;
+        border: 2px solid black;
+        border-radius: 4px;
+        padding: 2px;
+        /* font-size: 1.4rem; */
+    }
+
+    .container4 h1 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 2.9rem;
+    }
+
+    .container4 {
+    background: url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHBob25lJTIwY29udGFjdHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60') no-repeat center center/cover;
+    }
+
+    .footer{
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 2px;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="navbarcontainer">
+            <div class="logoimage">
+                <img src="https://logodownload.org/wp-content/uploads/2020/02/zomato-logo-2.png" alt="">
+            </div>
+            <ul class="navbar">
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact US</a></li>
+            </ul>
+        </div>
+        </div>
+        <section class="section">
+            <h1>Welcome to my online Meal</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, at quidem, quas ullam, unde et quos
+                aliquid labore beatae voluptate illo nihil deleniti.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum autem nulla delectus!</p>
+            <button class="btn">order Now</button>
+        </section>
+    </header>
+
+    <div class="container2">
+        <h1>Our Services</h1>
+
+        <section class="ourservice">
+
+            <div class="box">
+                <img src="https://images.pexels.com/photos/541216/pexels-photo-541216.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                    alt="">
+                <h2>Food ordering</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quae, quidem iste impedit repudiandae
+                    pariatur eligendi incidunt error! Velit quis placeat optio laboriosam.</p>
+            </div>
+            <div class="box">
+                <img src="https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                    alt="">
+                <h2>burger corner</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quae,
+                    quidem iste impedit repudiandae pariatur eligendi incidunt error! Velit
+                    quis placeat optio laboriosam.</p>
+            </div>
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz2uudTGFUG4h-DBJ-cvtAkk_xcOg2L5iMdYXlhbIyJaruyNbDdN3yE_kuSK-XDZ5KSig&usqp=CAU"
+                    alt="">
+                <h2>Home delivery</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quae,
+                    quidem iste impedit repudiandae pariatur eligendi incidunt error! Velit
+                    quis placeat optio laboriosam.</p>
+            </div>
+        </section>
+    </div>
+
+    <div class="container3">
+        <h1>Our Clients</h1>
+        <section class="ourclients">
+            <div id="apple" class="img">
+                <img src="apple.png" alt="fail">
+            </div>
+            <div class="img">
+                <img src="microsofts.jpg" alt="">
+            </div>
+            <div id="facebook" class="img">
+                <img src="facebook.png" alt="">
+            </div>
+            <div class="img">
+                <img src="skypee.png" alt="">
+            </div>
+
+        </section>
+    </div>
+
+
+    <div class="container4">
+        <h1>Contact US</h1>
+    
+    <section class="contact">
+            <!-- <form action=""> -->
+            <p>Name:</p>
+            <input type="text" placeholder="Enter your Name">
+            <p>Email:</p>
+            <input type="email" placeholder="Enter your Email">
+            <p>phone Number:</p>
+            <input type="number" placeholder="Enter your Contact">
+            <p>Message:</p>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your Message"></textarea>
+        <!-- </form> -->
+    </section>
+</div>
+
+<footer>
+    <div class="footer">
+        copyright &copy;www.myonlineMeal.com All rights reserved
+    </div>
+</footer>
+
+</body>
+
+</html>
